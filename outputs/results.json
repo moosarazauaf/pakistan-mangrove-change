@@ -1,0 +1,332 @@
+{
+ "biomass_c_t_per_ha": {
+  "central": 53.5,
+  "low": 48.3,
+  "high": 59.4
+ },
+ "trends": {
+  "1984-2023": {
+   "canopy_ha": {
+    "sen_per_yr": 649.627,
+    "p_original": 1.01e-11,
+    "p_hamed_rao": 2.64e-05,
+    "tau": 0.75
+   },
+   "mapped_ha": {
+    "sen_per_yr": 863.383,
+    "p_original": 6.2e-14,
+    "p_hamed_rao": 4.88e-06,
+    "tau": 0.827
+   },
+   "mean_fcc": {
+    "sen_per_yr": 0.056,
+    "p_original": 0.0224,
+    "p_hamed_rao": 0.106,
+    "tau": 0.253
+   }
+  },
+  "2000-2023": {
+   "canopy_ha": {
+    "sen_per_yr": 1020.907,
+    "p_original": 1.22e-09,
+    "p_hamed_rao": 1.11e-10,
+    "tau": 0.891
+   },
+   "mapped_ha": {
+    "sen_per_yr": 1195.05,
+    "p_original": 9.03e-12,
+    "p_hamed_rao": 2.61e-12,
+    "tau": 1.0
+   },
+   "mean_fcc": {
+    "sen_per_yr": 0.289,
+    "p_original": 6.51e-05,
+    "p_hamed_rao": 6.51e-05,
+    "tau": 0.587
+   }
+  }
+ },
+ "sites_canopy": {
+  "Indus Delta": {
+   "province": "Sindh",
+   "ha_1996": 41695,
+   "ha_2020": 61519,
+   "canopy_1984": 28394,
+   "canopy_2023": 47263,
+   "sen_per_yr": 936.915,
+   "p_original": 1.67e-09,
+   "p_hamed_rao": 2.19e-10,
+   "tau": 0.884
+  },
+  "Jiwani": {
+   "province": "Balochistan",
+   "ha_1996": 125,
+   "ha_2020": 303,
+   "canopy_1984": 147,
+   "canopy_2023": 218,
+   "sen_per_yr": 4.515,
+   "p_original": 5.65e-06,
+   "p_hamed_rao": 0.00101,
+   "tau": 0.667
+  },
+  "Kalmat Khor": {
+   "province": "Balochistan",
+   "ha_1996": 30,
+   "ha_2020": 277,
+   "canopy_1984": 5,
+   "canopy_2023": 274,
+   "sen_per_yr": 10.108,
+   "p_original": 4.93e-11,
+   "p_hamed_rao": 8.37e-07,
+   "tau": 0.964
+  },
+  "Karachi coast": {
+   "province": "Sindh",
+   "ha_1996": 1961,
+   "ha_2020": 2564,
+   "canopy_1984": 1508,
+   "canopy_2023": 2259,
+   "sen_per_yr": 21.634,
+   "p_original": 1.32e-10,
+   "p_hamed_rao": 0.000136,
+   "tau": 0.942
+  },
+  "Miani Hor": {
+   "province": "Balochistan",
+   "ha_1996": 2120,
+   "ha_2020": 3298,
+   "canopy_1984": 1071,
+   "canopy_2023": 2983,
+   "sen_per_yr": 45.701,
+   "p_original": 2.83e-07,
+   "p_hamed_rao": 0.000228,
+   "tau": 0.754
+  }
+ },
+ "national": {
+  "canopy_1984": 31126,
+  "canopy_2023": 52997,
+  "mapped_1996": 45932,
+  "mapped_2020": 67960,
+  "mean_fcc_1984": 72.1,
+  "mean_fcc_2023": 75.3
+ },
+ "gmw": {
+  "1996": 101522,
+  "2007": 92903,
+  "2008": 90253,
+  "2009": 89365,
+  "2010": 87569,
+  "2015": 86589,
+  "2016": 88214,
+  "2017": 90710,
+  "2018": 91688,
+  "2019": 88114,
+  "2020": 78711
+ },
+ "gmw_sites": {
+  "Indus Delta": {
+   "ha_1996": 92813,
+   "ha_2020": 71217
+  },
+  "Jiwani": {
+   "ha_1996": 720,
+   "ha_2020": 515
+  },
+  "Kalmat Khor": {
+   "ha_1996": 437,
+   "ha_2020": 380
+  },
+  "Karachi coast": {
+   "ha_1996": 2859,
+   "ha_2020": 2475
+  },
+  "Miani Hor": {
+   "ha_1996": 4691,
+   "ha_2020": 4125
+  }
+ },
+ "scene_count_check": {
+  "years": 38,
+  "r_levels": 0.886,
+  "r_year_to_year_change": -0.054
+ },
+ "n_points": 9782,
+ "n_mapped_points": 9032,
+ "ndvi_thresholds": {
+  "a": {
+   "youden": 0.276,
+   "high": 0.326,
+   "low": 0.208,
+   "auc": 0.997,
+   "tpr": 0.994,
+   "fpr": 0.021
+  },
+  "b": {
+   "youden": 0.362,
+   "high": 0.416,
+   "low": 0.314,
+   "auc": 0.997,
+   "tpr": 0.987,
+   "fpr": 0.023
+  }
+ },
+ "mapped_ha_without_sample": 0.0,
+ "arbiter": {
+  "ha_1996_epoch": 54381,
+  "ci_1996": [
+   52619,
+   56123
+  ],
+  "ha_2020_epoch": 70840,
+  "ci_2020": [
+   69144,
+   72578
+  ],
+  "change_ha": 16459,
+  "ci_change": [
+   14021,
+   19066
+  ],
+  "change_pct": 30.3
+ },
+ "arbiter_sensitivity": {
+  "high_threshold": {
+   "ha_1996_epoch": 47354,
+   "ha_2020_epoch": 62211,
+   "change_ha": 14857,
+   "change_pct": 31.4
+  },
+  "low_threshold": {
+   "ha_1996_epoch": 67313,
+   "ha_2020_epoch": 78339,
+   "change_ha": 11025,
+   "change_pct": 16.4
+  },
+  "worldcover_confirmed_2020": {
+   "ha_1996_epoch": 54381,
+   "ha_2020_epoch": 65089,
+   "change_ha": 10707,
+   "ci_change": [
+    8285,
+    13087
+   ],
+   "change_pct": 19.7
+  }
+ },
+ "arbiter_by_site": {
+  "Indus Delta": {
+   "ha_1996_epoch": 48998,
+   "ha_2020_epoch": 63667,
+   "change_pct": 29.9
+  },
+  "Jiwani": {
+   "ha_1996_epoch": 229,
+   "ha_2020_epoch": 407,
+   "change_pct": 77.5
+  },
+  "Kalmat Khor": {
+   "ha_1996_epoch": 100,
+   "ha_2020_epoch": 341,
+   "change_pct": 240.4
+  },
+  "Karachi coast": {
+   "ha_1996_epoch": 2370,
+   "ha_2020_epoch": 2821,
+   "change_pct": 19.1
+  },
+  "Miani Hor": {
+   "ha_1996_epoch": 2684,
+   "ha_2020_epoch": 3603,
+   "change_pct": 34.2
+  },
+  "Sindh": {
+   "ha_1996_epoch": 51368,
+   "ha_2020_epoch": 66489,
+   "change_pct": 29.4
+  },
+  "Balochistan": {
+   "ha_1996_epoch": 3014,
+   "ha_2020_epoch": 4351,
+   "change_pct": 44.4
+  }
+ },
+ "disputed": {
+  "both_keep": {
+   "label": "Both products: mangrove throughout",
+   "ha": 36711,
+   "n": 750,
+   "veg_1996_epoch": 0.994,
+   "veg_2020_epoch": 0.982,
+   "worldcover_2020": 0.999,
+   "giri_2000": 0.813
+  },
+  "cgmd_gain_gmw_stable": {
+   "label": "CGMD gain; GMW says it was already there",
+   "ha": 16361,
+   "n": 750,
+   "veg_1996_epoch": 0.15,
+   "veg_2020_epoch": 0.967,
+   "worldcover_2020": 0.98,
+   "giri_2000": 0.24
+  },
+  "cgmd_gain_gmw_absent": {
+   "label": "CGMD gain; GMW never maps it",
+   "ha": 7921,
+   "n": 750,
+   "veg_1996_epoch": 0.024,
+   "veg_2020_epoch": 0.805,
+   "worldcover_2020": 0.292,
+   "giri_2000": 0.022
+  },
+  "gmw_loss_cgmd_absent": {
+   "label": "GMW loss; CGMD never maps it",
+   "ha": 21153,
+   "n": 750,
+   "veg_1996_epoch": 0.12,
+   "veg_2020_epoch": 0.03,
+   "worldcover_2020": 0.277,
+   "giri_2000": 0.117
+  },
+  "gmw_only_stable": {
+   "label": "GMW mangrove throughout; CGMD never maps it",
+   "ha": 20588,
+   "n": 750,
+   "veg_1996_epoch": 0.156,
+   "veg_2020_epoch": 0.219,
+   "worldcover_2020": 0.721,
+   "giri_2000": 0.224
+  }
+ },
+ "worldcover_agreement_2020": {
+  "share_of_cgmd_2020_also_worldcover": 0.903,
+  "share_of_gmw_2020_also_worldcover": 0.908
+ },
+ "giri_agreement": {
+  "share_of_cgmd_1996_also_giri_2000": 0.758,
+  "share_of_gmw_1996_also_giri_2000": 0.437
+ },
+ "carbon": {
+  "gmw_change_Mt_C": -1.22,
+  "cgmd_change_Mt_C": 1.18,
+  "arbiter_change_Mt_C": 0.88,
+  "arbiter_change_range_Mt_C": [
+   0.8,
+   0.98
+  ],
+  "gap_between_products_Mt_C": 2.4
+ },
+ "flood_pulse": {
+  "years_after_flood": [
+   2011,
+   2023
+  ],
+  "delta_pct": {
+   "2011": 4.22,
+   "2023": -0.85
+  },
+  "delta_minus_balochistan_pct": 1.06,
+  "other_years_mean_pct": -1.71,
+  "permutation_p_two_sided": 0.593
+ }
+}

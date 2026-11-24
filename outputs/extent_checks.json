@@ -1,0 +1,37 @@
+{
+ "cgmd_2000": {
+  "ha": 43415,
+  "east_of_67E_ha": 39712,
+  "east_share": 0.9147
+ },
+ "cgmd_2020": {
+  "ha": 67960,
+  "east_of_67E_ha": 62747,
+  "east_share": 0.9233
+ },
+ "cgmd_2023": {
+  "ha": 70370,
+  "east_of_67E_ha": 64999,
+  "east_share": 0.9237
+ },
+ "gmw_1996": {
+  "ha": 101522,
+  "east_of_67E_ha": 94363,
+  "east_share": 0.9295
+ },
+ "gmw_2020": {
+  "ha": 78711,
+  "east_of_67E_ha": 72554,
+  "east_share": 0.9218
+ },
+ "giri_2000": {
+  "ha": 51137,
+  "east_of_67E_ha": 45855,
+  "east_share": 0.8967
+ },
+ "worldcover_2020": {
+  "ha": 91990,
+  "east_of_67E_ha": 85037,
+  "east_share": 0.9244
+ }
+}
